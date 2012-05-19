@@ -1,4 +1,4 @@
-redis (2:2.4.13-1~tooptee1) lucid; urgency=low
+redis (2:2.4.13-1~tooptee10+1) lucid; urgency=low
 
   * New upstream version.
   * dotBuntu build for Ubuntu 10.04 Lucid
