@@ -1,2 +1,5 @@
 version=3
-opts="uversionmangle=s/-rc/~rc/;s/^beta/0+beta/" http://googlecode.debian.net/p/redis /p/redis/redis-(.*).tar.gz
+opts=\
+downloadurlmangle=s|.*[?]name=(.*?)&.*|http://redis.googlecode.com/files/$1|,\
+filenamemangle=s|[^/]+[?]name=(.*?)&.*|$1| \
+http://code.google.com/p/redis/downloads/detail[?]name=redis-([0-9.]+).tar.gz&.*
