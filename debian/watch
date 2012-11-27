@@ -2,4 +2,4 @@ version=3
 opts=\
 downloadurlmangle=s|.*[?]name=(.*?)&.*|http://redis.googlecode.com/files/$1|,\
 filenamemangle=s|[^/]+[?]name=(.*?)&.*|$1| \
-http://code.google.com/p/redis/downloads/detail[?]name=redis-([0-9.]+).tar.gz&.*
+http://code.google.com/p/redis/downloads/detail[?]name=redis-(2\.6\.[0-9.]+.*).tar.gz&.*

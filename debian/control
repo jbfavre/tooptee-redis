@@ -1,5 +1,5 @@
 Source: redis
-Section: database
+Section: experimental/database
 Priority: optional
 Maintainer: Jean Baptiste Favre <jbfavre@dotbuntu.org>
 Build-Depends: debhelper (>= 7.0.50)
