@@ -1,3 +1,9 @@
+redis (2.4.18-1~tooptee12+1) precise; urgency=low
+
+  * New upstream version 2.4.18
+
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Fri, 30 Nov 2012 00:12:44 +0100
+
 redis (2.4.17-1~tooptee12+1) precise; urgency=low
 
   * New upstream version 2.4.17
