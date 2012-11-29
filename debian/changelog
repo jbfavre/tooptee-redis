@@ -2,22 +2,22 @@ redis (2.6.5-1~tooptee12+1) precise; urgency=low
 
   * New upstream version 2.6.5
 
- -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Tue, 27 Nov 2012 22:12:22 +0100
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Tue, 27 Nov 2012 22:12:22 +0100
 
 redis (2.6.2-1~tooptee12+1) precise; urgency=low
 
   * New upstream version 2.6.2
 
- -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Sat, 27 Oct 2012 21:31:38 +0200
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Sat, 27 Oct 2012 21:31:38 +0200
 
 redis (2.6.0-rc5-1~tooptee12+1) precise; urgency=low
 
   * New release candidate
 
- -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Sun, 22 Jul 2012 23:44:05 +0200
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Sun, 22 Jul 2012 23:44:05 +0200
 
 redis (2.6.0-rc3-1~tooptee12+1) precise; urgency=low
 
-  * dotBuntu packagin test for Ubuntu 12.04 Precise
+  * packaging test for Ubuntu 12.04 Precise
 
- -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Wed, 23 May 2012 22:19:26 +0200
+ -- Jean Baptiste Favre <ubuntu@jbfavre.org>  Wed, 23 May 2012 22:19:26 +0200
