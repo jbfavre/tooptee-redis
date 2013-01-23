@@ -3,15 +3,16 @@
 # Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=632499
 # Author: Christoph Egger <christoph@debian.org>
 
-diff -urNad /tmp/bp-build/redis-2.6.2.orig/src/fmacros.h /tmp/bp-build/redis-2.6.2/src/fmacros.h
---- a/src/fmacros.h	2012-10-26 16:20:24.000000000 +0200
-+++ b/src/fmacros.h	2012-10-27 21:51:57.000000000 +0200
-@@ -7,7 +7,7 @@
+Index: redis-2.6.8/src/fmacros.h
+===================================================================
+--- redis-2.6.8.orig/src/fmacros.h
++++ redis-2.6.8/src/fmacros.h
+@@ -36,7 +36,7 @@
  #define _GNU_SOURCE
  #endif
  
--#if defined(__linux__) || defined(__OpenBSD__)
-+#if defined(__linux__) || defined(__OpenBSD__) || defined(__GLIBC__)
+-#if defined(__linux__) || defined(__OpenBSD__) || defined(__NetBSD__)
++#if defined(__linux__) || defined(__OpenBSD__) || defined(__NetBSD__) || defined(__GLIBC__)
  #define _XOPEN_SOURCE 700
  #else
  #define _XOPEN_SOURCE
